@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    margin-left: 10rem;
+    padding-top: 2rem;
+    position: relative;
+
+}
+
+.row {
+    padding-bottom: 2rem;
+}
+
+div > h3 {
+    letter-spacing: 2px;
+    margin-bottom: 0rem;
+}
+
+a > i:hover {
+    color: rgb(23, 180, 233);
+}

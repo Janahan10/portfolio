@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body {
+    padding: 0 4rem 2rem 4rem;
+    font-size: 1.3rem;
+    background-color: rgb(247, 242, 242);
+}
+
+.main-header {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: solid black;
+}
+
+.main-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.main-header h1 span {
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+i {
+    margin-top: 2rem;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }

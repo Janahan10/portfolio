@@ -1,0 +1,64 @@
+
+.main-header {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border: solid black 1px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("src\assets\img\background2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main-header h2 {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.circular {
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 2rem;
+    overflow: auto;
+    padding: 0rem 2rem;
+    height: 5rem;
+}
+
+.info-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    
+}
+
+.info-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(23, 180, 233);
+}
