@@ -1,24 +1,47 @@
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Nunito:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inria+Serif:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 </head>
 
-<div class="main-header">
-    <!-- Main Header Image-->
-    <div>
-        <div class="hero-text">
-            <h1><span>HI! I'm Janahan Ravichandran</span></h1>
-            <img class="circular" src="\assets\img\aboutMe.jpg" height="40%" width="40%">
+<body>  
+    <div class="main-header">
+        
+        <!-- Main Header with Image-->
+        <div class="title">
+            <div>
+                <h1><span>HI I'm Janahan Ravichandran</span></h1>
+                <p><span>Software Engineering Student</span></p>
+            </div>
+            <a id="move" href="#aboutMe"><i class="fas fa-chevron-down fa-2x"></i></a>
+        </div>
+        <!-- Main Header Ends-->
+    
+        <!-- About Me -->
+        <div class="container" id="aboutMe">
+            <h2>A little bit about me</h2>
+            <img class="circular" src="assets/img/aboutMe.png" width="20%">
+            <p class="col-md-6 col-md-offset-3">
+                Hi, My name is Janahan Ravichandran and I am a second year student at Ontario Tech University
+                pursuing a degree in Software Engineering. I aspire to apply my skills in programming and problem 
+                solving in a efficient, and competent manner. 
+            </p>
+            <h2>My other interest</h2> 
+            <div class="row">
+                <div class="col">
+                    <i class="fas fa-plane-departure fa-2x"></i>
+                    <h3>Travelling</h3>
+                </div>
+                <div class="col">
+                    <i class="fab fa-playstation fa-2x"></i>
+                    <h3>Gaming</h3>
+                </div>
+                <div class="col">
+                    <i class="fas fa-basketball-ball fa-2x"></i>
+                    <h3>Basketball</h3>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <div class="container">
-        <section class="info-card"> 
-            <a href="https://www.linkedin.com/in/janahan-ravi-25376b141" class="info-button"><i class="fab fa-linkedin-in fa-4x"></i></a>
-            <a href="https://github.com/Janahan10"  class="info-button"><i class="fab fa-github fa-4x"></i></a>
-        </section>
-    </div>
-
-    <section class="brief">
-        <h2>{{ desc1 }}</h2>
-    </section>
-</div>
+</body>

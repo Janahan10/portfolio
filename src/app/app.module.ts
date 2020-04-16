@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProjectCardsComponent } from './components/project-cards/project-cards.component';
 import { SkillsCardsComponent } from './components/skills-cards/skills-cards.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { ResumeAreaComponent } from './components/resume-area/resume-area.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -16,8 +16,8 @@ import { ResumeAreaComponent } from './components/resume-area/resume-area.compon
     HeaderComponent,
     ProjectCardsComponent,
     SkillsCardsComponent,
-    FooterComponent,
-    ResumeAreaComponent
+    ResumeAreaComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

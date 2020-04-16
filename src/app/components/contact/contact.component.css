@@ -1,0 +1,57 @@
+
+body {
+    margin: 2rem;
+}
+.symbol {
+    text-align: center;
+}
+
+.container { 
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container p {
+    margin: 1rem;
+}
+
+.container h5 {
+    margin-bottom: 1rem;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin: auto;
+}
+.lk {
+    color: white;
+    background-color: rgb(83, 83, 83);
+    padding: 1rem;
+}
+
+.lk:hover {
+    background-color: rgb(0, 86, 247);
+    border: none;
+}
+
+.gh {
+    color: white;
+    background-color: rgb(83, 83, 83);
+    padding: 1rem;
+}
+
+.gh:hover {
+    background-color: rgb(177, 5, 5);
+    border: none;
+}
+

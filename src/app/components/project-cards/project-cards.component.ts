@@ -13,6 +13,6 @@ export class ProjectCardsComponent implements OnInit {
   }
 
   title:string = "Projects";
-  desc: string = "Below are just a couple of projects I have worked. Projects covering various fields learned in school, as well as in my own time."
+  desc: string = "Below are a couple of projects I have created and worked on. Theres projects covered various topics and concepts I learned in school, as well as on my own. Each project below will have its own personal description including what language it was coded in, concepts used, and detailed description of what the program does."
   subtitle: string = "Technologies:"
 }

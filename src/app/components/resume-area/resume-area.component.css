@@ -9,7 +9,7 @@
 body {
     padding: 0 4rem 2rem 4rem;
     font-size: 1.3rem;
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(16, 31, 78);
 }
 
 .main-header {
@@ -20,17 +20,18 @@ body {
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    border-bottom: solid black;
+    border-bottom: solid rgb(0, 225, 255);
 }
 
 .main-header h1 {
     font-size: 3.5rem;
     margin-bottom: 2rem;
     line-height: 1.2;
+    
 }
 
 .main-header h1 span {
-    color: black;
+    color: rgb(0, 225, 255);
 }
 
 .card {
@@ -38,8 +39,12 @@ body {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    color: black
 }
 
+.card:hover {
+    color: rgb(2, 112, 255);
+}
 i {
     margin-top: 2rem;
 }
@@ -48,3 +53,6 @@ i {
     font-size: 18px;
     margin-bottom: 2rem;
   }
+
+
+  /*rgb(247, 242, 242)*/
