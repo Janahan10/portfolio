@@ -7,15 +7,19 @@
 
 body {
     padding: 0 4rem 0 4rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     background-color: black;
 }
 
 .container {
-    max-width: 1300px;
+    min-width: 300px;
     margin: auto;
     overflow: auto;
     padding: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 550px));
+    grid-gap: 1rem;
 }
 
 .main-header {
@@ -42,26 +46,16 @@ body {
     color: white;
 }
 
-img {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-
 .card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    background-color: rgba(4, 36, 141, 0.829);
-    margin-bottom: 2rem;
+    background-color: rgba(51, 49, 49, 0.829);
+    margin-top: 2rem;
     border-radius: 5px;
     color: white;
     padding: 2rem;
 }
 
 .title {
-    background-color: rgba(2, 49, 206, 0.829);
+    background-color: rgba(49, 49, 49, 0.829);
     text-align: center;
     align-items: center;
     display: flex;
@@ -82,16 +76,19 @@ div > p {
 }
 
 a:hover{
-    color: rgba(0, 60, 255, 0.829);
-}
-
-@media(max-width: 600px) {
-    .card {
-        display: block;
-    }
+    color: black;
 }
 
 div > i {
     margin-right: 1rem;
     margin-bottom: 1rem;
+}
+
+a {
+    text-align: center;
+}
+
+img {
+    height: 35px;
+    width: 35px;
 }

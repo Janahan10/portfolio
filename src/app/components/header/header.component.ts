@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, ViewChildren } from '@angular/core';
+import { element } from 'protractor';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,14 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  } 
+
+  scrollDown(id: string): void {
+    const el: HTMLElement|null = document.getElementById(id);
+    if (el) {
+      setTimeout(() =>
+        el.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'}), 0);
+    }
   }
 
   desc1:string = "Software Engineering Student at Ontario Tech University"
